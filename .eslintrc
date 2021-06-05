@@ -1,15 +1,14 @@
-
 {
   "env": {
     "jest": true
   },
   "parser": "@typescript-eslint/parser",
-  "extends": ["airbnb/base", "plugin:@typescript-eslint/recommended", "plugin:security/recommended"],
-  "plugins": [
-    "security",
-    "prettier",
-    "@typescript-eslint"
+  "extends": [
+    "airbnb/base",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:security/recommended"
   ],
+  "plugins": ["security", "prettier", "@typescript-eslint"],
   "settings": {
     "import/resolver": {
       "node": {
